@@ -1,0 +1,35 @@
+# Core app
+streamlit
+python-dotenv
+
+# LangChain core & community modules
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-ollama
+
+# Embeddings (Ollama + HuggingFace fallback)
+sentence-transformers
+transformers
+
+# Vector storage
+chromadb
+
+# PDF reading and unstructured data
+pypdf
+pdfminer.six
+unstructured[local-inference,pdf]
+pdf2image
+pytesseract
+pillow
+
+# Optional: OCR dependencies
+opencv-python-headless
+torch
+torchvision
+torchaudio
+
+# Utility
+requests
+tqdm
